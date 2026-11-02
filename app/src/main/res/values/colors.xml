@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ruangkarya_primary">#624298</color>
+    <color name="ruangkarya_background">#F6F2FA</color>
+    <color name="ruangkarya_accent">#E7DCF3</color>
+    <color name="ruangkarya_text">#2B1B40</color>
+</resources>

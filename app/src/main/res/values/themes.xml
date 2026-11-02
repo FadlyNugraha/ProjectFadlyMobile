@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.RuangKarya" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ruangkarya_primary</item>
+        <item name="colorPrimaryVariant">@color/ruangkarya_text</item>
+        <item name="colorSecondary">@color/ruangkarya_primary</item>
+        <item name="android:statusBarColor">@color/ruangkarya_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/ruangkarya_text</item>
+    </style>
+
+    <style name="Theme.RuangKarya.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/ruangkarya_text</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:drawable/ic_btn_speak_now</item>
+        <item name="postSplashScreenTheme">@style/Theme.RuangKarya</item>
+    </style>
+</resources>
